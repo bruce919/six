@@ -1,0 +1,1 @@
+json.array! @guas, partial: 'guas/gua', as: :gua

@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gua.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @gua.email %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @gua.number %>
+</p>
+
+<p>
+  <strong>時間:</strong>
+  <%= @gua.created_at %>
+</p>
+
+
+
+<p>
+  <strong>結果:</strong>
+  <%= @text %>
+</p>
+
+
+<!-- <%= link_to 'Edit', edit_gua_path(@gua) %> | -->
+<%= link_to 'Back', guas_path %>

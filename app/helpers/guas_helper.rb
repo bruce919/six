@@ -1,0 +1,2 @@
+module GuasHelper
+end

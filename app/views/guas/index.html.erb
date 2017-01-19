@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Guas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Number</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+
+
+  <tbody>
+    <% @guas.each do |gua| %>
+      <tr>
+        <td><%= gua.name %></td>
+        <td><%= gua.email %></td>
+        <td><%= gua.number %></td>
+        <td><%= link_to 'Show', gua %></td>
+        <!-- <td><%= link_to 'Edit', edit_gua_path(gua) %></td> -->
+        <!-- <td><%= link_to 'Destroy', gua, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
+        
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Gua', new_gua_path %>
