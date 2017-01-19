@@ -12,7 +12,7 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %>
+    <%= f.label "您的大名：" %>
     <%= f.text_field :name %>
   </div>
 
@@ -22,12 +22,13 @@
   </div>
 
   <div class="field">
-    <%= f.label :number %>
+    <%= f.label "您給的數字：" %>
     <%= f.number_field :number %>
   </div>
 
   <div class="actions">
-    <%= f.submit %>
+
+    <%= f.submit "起卦" %>
   </div>
 
 
